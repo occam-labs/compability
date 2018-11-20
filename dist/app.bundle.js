@@ -741,6 +741,13 @@ var wait1000 = new Promise(function (resolve, reject) {
 }).then(function () {
   console.log('Yay!');
 });
+const obj = {
+  test: 1
+};
+const secondObj = Object.assign(obj, {
+  test: 2
+});
+console.log(secondObj);
 Object(_scripts_data__WEBPACK_IMPORTED_MODULE_0__["data"])();
 
 /***/ }),

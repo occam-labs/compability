@@ -1,5 +1,5 @@
 // require("@babel/polyfill");
-import {data} from './scripts/data';
+import { data } from './scripts/data';
 import './css/root.scss';
 
 var arrowFunction = () => {
@@ -31,5 +31,9 @@ var wait1000 = new Promise(function (resolve, reject) {
 })
 
 
+const obj = { test: 1 };
+const secondObj = Object.assign(obj, { test: 2 })
+
+console.log(secondObj)
 
 data();
