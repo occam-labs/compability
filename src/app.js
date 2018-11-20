@@ -1,5 +1,6 @@
 // require("@babel/polyfill");
 import {data} from './scripts/data';
+import './css/root.scss';
 
 var arrowFunction = () => {
 
@@ -28,8 +29,6 @@ var wait1000 = new Promise(function (resolve, reject) {
 }).then(function () {
     console.log('Yay!')
 })
-
-document.body.innerHTML = "Just Hello world s"; 
 
 
 
